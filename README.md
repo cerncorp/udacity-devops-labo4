@@ -27,18 +27,18 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 * Create a virtualenv with Python 3.7 and activate it. Refer to this link for help on specifying the Python version in the virtualenv. 
 ```bash
-python3 -m pip install --user virtualenv
+python3 -m venv ~/.devops
 # You should have Python 3.7 available in your host. 
 # Check the Python path using `which python3`
 # Use a command similar to this one:
-python3 -m virtualenv --python=<path-to-Python3.7> .devops
-source .devops/bin/activate
+source ~/.devops/bin/activate
 ```
 * Run `make install` to install the necessary dependencies
+* Run `minikube start` or `minikube start --extra-config=kubeadm.ignore-preflight-errors=NumCPU --force --cpus 1` to start a single kubernetes cluster
 
 ### Running `app.py`
 
-1. Standalone:  `python app.py`
+1. Standalone:  `python app.py` or `python -m flask run`
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
 
