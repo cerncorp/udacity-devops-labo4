@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/cerncorp/udacity-devops-labo4/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/cerncorp/udacity-devops-labo4/tree/master)
 
 ## Project Overview
 
